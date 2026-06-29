@@ -154,6 +154,7 @@ proxygen_add_library(proxygen_utils_trace
     proxygen_utils_exception
     proxygen_utils_export
     proxygen_utils_time_util
+    proxygen_utils_trace_event_types
     Folly::folly_conv
     Folly::folly_lang_exception
     glog::glog
