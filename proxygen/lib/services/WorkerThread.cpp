@@ -13,6 +13,7 @@
 #include <folly/String.h>
 #include <folly/io/async/EventBaseManager.h>
 #include <folly/io/async/IoUringBackend.h>
+#include <folly/portability/GFlags.h>
 #include <glog/logging.h>
 #include <signal.h>
 
