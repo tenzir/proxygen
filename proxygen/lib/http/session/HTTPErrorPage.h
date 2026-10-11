@@ -9,14 +9,11 @@
 #pragma once
 
 #include <cstdint>
+#include <folly/io/IOBuf.h>
 #include <memory>
 #include <proxygen/lib/http/HTTPHeaders.h>
 #include <proxygen/lib/http/ProxygenErrorEnum.h>
 #include <string>
-
-namespace folly {
-class IOBuf;
-}
 
 namespace proxygen {
 
